@@ -1,100 +1,38 @@
-# Wicks Tech Demo: Aerodynamic Simulator Prototype
-Virtual prototype
-
-
-//////////////////////////TEST BLURB TO EDIT!//////////////////////////////////////////////
-
-# Sustainable Battery-Generator Hybrid (Virtual Prototype)
-
-An R&D virtual prototype exploring a hybrid energy storage and generation system designed around eco-friendly, renewable input sources — aiming to reduce waste, improve off-grid energy sustainability and attempt to produce at scale to decarbonise existing energy=intensive operations such as data-farming and crpto-mining.
-
----
+# Aerodynamic Objects for Wind Turbine Efficiency Simulation
 
 ## Overview
 
-This project investigates a novel battery-generator hybrid device that:
-- Stores electrical energy from **low-impact sources** (e.g., thermal, kinetic, or solar, wind).
-- Can generate electricity on-demand using **a low-waste conversion mechanism**.
-- Uses **recyclable or biodegradable materials** in its build to align with sustainable design principles.
+This Unity project aims to simulate non-linear atmospheric interactions using aerodynamic objects to enhance the efficiency of wind turbines. By accurately modelling the complex interactions between wind and turbine blades, this project seeks to provide insights into optimising turbine design and placement, ultimately contributing to more efficient renewable energy generation.
 
----
+## Features
 
-## Prototype Goals
+- **Realistic Wind Simulation**: Utilises advanced algorithms to simulate varying wind conditions, including turbulence and directional changes.
+- **Aerodynamic Object Modelling**: Implements aerodynamic principles to create realistic representations of wind turbine blades and their interactions with the atmosphere.
+- **Data Visualisation**: Provides visual feedback on wind flow patterns and turbine performance metrics, allowing for easy analysis and optimisation.
+- **Customisable Parameters**: Users can adjust various simulation parameters, including wind speed, direction, and turbine specifications, to explore different scenarios.
+- **Performance Metrics**: Tracks and displays key performance indicators such as power output, efficiency, and aerodynamic forces acting on the turbine.
 
-- Hybridize passive storage and active generation in a single compact unit
-- Allow energy input from **non-conventional sources**
-- Minimize environmental impact across lifecycle
-- Validate feasibility through real-world bench testing
+## Getting Started
 
----
+### Prerequisites
 
-## 🖼️Diagrams / Photos
+- Unity 2021.3 or later
+- Basic knowledge of Unity and C# programming
+- Familiarity with aerodynamic principles (optional but beneficial)
 
-In progress!
+### Installation
 
----
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/aerodynamic-objects-wind-turbine.git
+2. Open the project in Unity.
+3. Import any necessary packages or assets as specified in the project documentation.
 
-## 🔬 Research Components
+### Usage
+Open the scene MainScene in Unity.
+Adjust the simulation parameters in the Inspector panel.
+Press the Play button to start the simulation.
+Observe the wind interactions and turbine performance in real-time.
 
-- Literature review: sustainable materials, energy harvesting
-- Concept modeling: hybrid logic and energy transfer
-- Accurate real-world simulation using Unity physics
-- Physical prototyping: casing, circuitry, and input interfaces
-- Data logging: efficiency, output stability, thermal behavior
-- 3D custom-printing for components
-- Arduino code
-
----
-
-## 📂 Repo Contents
-
-/Assets ← project components
-/Docs ← Research PDFs, schematics, images
-/Code ← Microcontroller firmware
-/Tests ← Bench test logs, data
-README.md
-
----
-
-## Key Innovations
-
-- Active energy generation
-- Modular design: replace or upgrade components easily
-- Low energy loss via control logic
-
----
-
-## How It Works
-
-In progress
-
-1. [Step 1: Energy intake process]
-2. [Step 2: Conversion or buffering]
-3. [Step 3: Output via regulated terminals]
-
----
-
-## Findings So Far
-
-- Storage efficiency of X% under Y conditions
-- Heat dissipation requires additional cooling solution
-- Peak output: [value] under test load of [load spec]
-
----
-
-## Next Steps
-
-- [ ] Finalize housing and field-test casing durability
-- [ ] Integrate solar micro-harvesting
-- [ ] Publish whitepaper or submit for academic poster
-
----
-
-## Author
-
-Finn Wicks  
-[LinkedIn] https://www.linkedin.com/in/finn-wicks/ | [Portfolio] https://wickstech.co.uk | [Contact] finn.wicks@wickstech.co.uk
-
----
-
-## License
+### License
+This project is licensed under the MIT License. See the LICENSE file for details.
