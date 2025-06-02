@@ -1,2 +1,2 @@
-# WT_Demo_Aerodynamic_Simulator_Prototype
+# Wicks Tech Demo: Aerodynamic Simulator Prototype
 Virtual prototype
